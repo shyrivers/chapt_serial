@@ -1,0 +1,72 @@
+[0.013s] Invoking command in '/home/lqc/chapt_serial/serial_ws/build/serial_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lqc/chapt_serial/serial_ws/src/serial_test -DCMAKE_INSTALL_PREFIX=/home/lqc/chapt_serial/serial_ws/install/serial_test
+[0.259s] -- The C compiler identification is GNU 13.3.0
+[0.375s] -- The CXX compiler identification is GNU 13.3.0
+[0.409s] -- Detecting C compiler ABI info
+[0.590s] -- Detecting C compiler ABI info - done
+[0.607s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.608s] -- Detecting C compile features
+[0.609s] -- Detecting C compile features - done
+[0.625s] -- Detecting CXX compiler ABI info
+[0.812s] -- Detecting CXX compiler ABI info - done
+[0.824s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.826s] -- Detecting CXX compile features
+[0.826s] -- Detecting CXX compile features - done
+[0.830s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.059s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.233s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.291s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.312s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.338s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.369s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.477s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.480s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.627s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.655s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.692s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.796s] -- Found serial_driver: 1.2.0 (/opt/ros/jazzy/share/serial_driver/cmake)
+[1.855s] -- Found asio_cmake_module: 1.2.0 (/opt/ros/jazzy/share/asio_cmake_module/cmake)
+[1.857s] -- Found ASIO: /usr/include  
+[1.961s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.185s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.186s] -- Configured cppcheck include dirs: 
+[2.186s] -- Configured cppcheck exclude dirs and/or files: 
+[2.195s] -- Added test 'lint_cmake' to check CMake code style
+[2.240s] -- Added test 'uncrustify' to check C / C++ code style
+[2.240s] -- Configured uncrustify additional arguments: 
+[2.264s] -- Added test 'xmllint' to check XML markup files
+[2.312s] -- Configuring done (2.3s)
+[2.522s] -- Generating done (0.2s)
+[2.554s] -- Build files have been written to: /home/lqc/chapt_serial/serial_ws/build/serial_test
+[2.576s] Invoked command in '/home/lqc/chapt_serial/serial_ws/build/serial_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lqc/chapt_serial/serial_ws/src/serial_test -DCMAKE_INSTALL_PREFIX=/home/lqc/chapt_serial/serial_ws/install/serial_test
+[2.579s] Invoking command in '/home/lqc/chapt_serial/serial_ws/build/serial_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lqc/chapt_serial/serial_ws/build/serial_test -- -j4 -l4
+[2.674s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_test_node.dir/src/serial_test_node.cpp.o[0m
+[8.187s] [01m[K/home/lqc/chapt_serial/serial_ws/src/serial_test/src/serial_test_node.cpp:[m[K In lambda function:
+[8.187s] [01m[K/home/lqc/chapt_serial/serial_ws/src/serial_test/src/serial_test_node.cpp:34:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksent_bytes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.187s]    34 |           size_t [01;35m[Ksent_bytes[m[K = port->send(tx_buffer);  // port->send() 需要 vector
+[8.187s]       |                  [01;35m[K^~~~~~~~~~[m[K
+[8.187s] [01m[K/home/lqc/chapt_serial/serial_ws/src/serial_test/src/serial_test_node.cpp:30:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krx_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.187s]    30 |         uint8_t [01;35m[Krx_data[m[K;
+[8.187s]       |                 [01;35m[K^~~~~~~[m[K
+[10.670s] [100%] [32m[1mLinking CXX executable serial_test_node[0m
+[11.148s] [100%] Built target serial_test_node
+[11.170s] Invoked command in '/home/lqc/chapt_serial/serial_ws/build/serial_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lqc/chapt_serial/serial_ws/build/serial_test -- -j4 -l4
+[11.189s] Invoking command in '/home/lqc/chapt_serial/serial_ws/build/serial_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lqc/chapt_serial/serial_ws/build/serial_test
+[11.204s] -- Install configuration: ""
+[11.204s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/lib/serial_test/serial_test_node
+[11.205s] -- Set non-toolchain portion of runtime path of "/home/lqc/chapt_serial/serial_ws/install/serial_test/lib/serial_test/serial_test_node" to ""
+[11.206s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/ament_index/resource_index/package_run_dependencies/serial_test
+[11.206s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/ament_index/resource_index/parent_prefix_path/serial_test
+[11.206s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/environment/ament_prefix_path.sh
+[11.207s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/environment/ament_prefix_path.dsv
+[11.207s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/environment/path.sh
+[11.207s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/environment/path.dsv
+[11.207s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/local_setup.bash
+[11.207s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/local_setup.sh
+[11.208s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/local_setup.zsh
+[11.208s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/local_setup.dsv
+[11.208s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/package.dsv
+[11.208s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/ament_index/resource_index/packages/serial_test
+[11.208s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/cmake/serial_testConfig.cmake
+[11.209s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/cmake/serial_testConfig-version.cmake
+[11.209s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/package.xml
+[11.213s] Invoked command in '/home/lqc/chapt_serial/serial_ws/build/serial_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lqc/chapt_serial/serial_ws/build/serial_test

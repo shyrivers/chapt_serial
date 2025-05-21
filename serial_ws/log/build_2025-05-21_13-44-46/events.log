@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.003577] (serial_test) JobQueued: {'identifier': 'serial_test', 'dependencies': OrderedDict()}
+[0.003658] (serial_test) JobStarted: {'identifier': 'serial_test'}
+[0.015114] (serial_test) JobProgress: {'identifier': 'serial_test', 'progress': 'cmake'}
+[0.017240] (serial_test) JobProgress: {'identifier': 'serial_test', 'progress': 'build'}
+[0.018538] (serial_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lqc/chapt_serial/serial_ws/build/serial_test', '--', '-j4', '-l4'], 'cwd': '/home/lqc/chapt_serial/serial_ws/build/serial_test', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lqc', 'SSH_AGENT_PID': '2146', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lqc', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/lqc/chapt_serial/serial_ws/src', 'TERM_PROGRAM_VERSION': '1.86.2', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/lqc/serial_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'lqc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/lqc-desktop:@/tmp/.ICE-unix/2165,unix/lqc-desktop:/tmp/.ICE-unix/2165', 'XDG_MENU_PREFIX': 'xfce-', 'XRDP_SOCKET_PATH': '/var/run/xrdp/1002', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4cc7b21a_220f_4b96_8e21_1ded4c485c8c', 'XDG_RUNTIME_DIR': '/run/user/1002', 'GDK_BACKEND': 'x11', 'DISPLAY': ':10.0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-f2c4feaae9.sock', 'GNOME_TERMINAL_SERVICE': ':1.86', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-Dljvji0i5lOh/agent.2065', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'XFCE', 'UID': '1002', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1922', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lqc/chapt_serial/serial_ws/build/serial_test', 'XDG_CONFIG_DIRS': '/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.103632] (-) TimerEvent: {}
+[0.184335] (serial_test) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_test_node.dir/src/serial_test_node.cpp.o\x1b[0m\n'}
+[0.205089] (-) TimerEvent: {}
+[0.305578] (-) TimerEvent: {}
+[0.408327] (-) TimerEvent: {}
+[0.508765] (-) TimerEvent: {}
+[0.612774] (-) TimerEvent: {}
+[0.714785] (-) TimerEvent: {}
+[0.815579] (-) TimerEvent: {}
+[0.915960] (-) TimerEvent: {}
+[1.016589] (-) TimerEvent: {}
+[1.117029] (-) TimerEvent: {}
+[1.218024] (-) TimerEvent: {}
+[1.318465] (-) TimerEvent: {}
+[1.418848] (-) TimerEvent: {}
+[1.519202] (-) TimerEvent: {}
+[1.619595] (-) TimerEvent: {}
+[1.719941] (-) TimerEvent: {}
+[1.820305] (-) TimerEvent: {}
+[1.920698] (-) TimerEvent: {}
+[2.021067] (-) TimerEvent: {}
+[2.121450] (-) TimerEvent: {}
+[2.221834] (-) TimerEvent: {}
+[2.322247] (-) TimerEvent: {}
+[2.422607] (-) TimerEvent: {}
+[2.522979] (-) TimerEvent: {}
+[2.623376] (-) TimerEvent: {}
+[2.723739] (-) TimerEvent: {}
+[2.824143] (-) TimerEvent: {}
+[2.924557] (-) TimerEvent: {}
+[3.024967] (-) TimerEvent: {}
+[3.125709] (-) TimerEvent: {}
+[3.226147] (-) TimerEvent: {}
+[3.334992] (-) TimerEvent: {}
+[3.446685] (-) TimerEvent: {}
+[3.550080] (-) TimerEvent: {}
+[3.651054] (-) TimerEvent: {}
+[3.752239] (-) TimerEvent: {}
+[3.852721] (-) TimerEvent: {}
+[3.953154] (-) TimerEvent: {}
+[4.053544] (-) TimerEvent: {}
+[4.154169] (-) TimerEvent: {}
+[4.256218] (-) TimerEvent: {}
+[4.357166] (-) TimerEvent: {}
+[4.457794] (-) TimerEvent: {}
+[4.562346] (-) TimerEvent: {}
+[4.665326] (-) TimerEvent: {}
+[4.768339] (-) TimerEvent: {}
+[4.869308] (-) TimerEvent: {}
+[4.969712] (-) TimerEvent: {}
+[5.070684] (-) TimerEvent: {}
+[5.171885] (-) TimerEvent: {}
+[5.274661] (-) TimerEvent: {}
+[5.375062] (-) TimerEvent: {}
+[5.477327] (-) TimerEvent: {}
+[5.577722] (-) TimerEvent: {}
+[5.678110] (-) TimerEvent: {}
+[5.778494] (-) TimerEvent: {}
+[5.879029] (-) TimerEvent: {}
+[5.979579] (-) TimerEvent: {}
+[6.079992] (-) TimerEvent: {}
+[6.180456] (-) TimerEvent: {}
+[6.280874] (-) TimerEvent: {}
+[6.381248] (-) TimerEvent: {}
+[6.481619] (-) TimerEvent: {}
+[6.581988] (-) TimerEvent: {}
+[6.682400] (-) TimerEvent: {}
+[6.782785] (-) TimerEvent: {}
+[6.883159] (-) TimerEvent: {}
+[6.983566] (-) TimerEvent: {}
+[7.083971] (-) TimerEvent: {}
+[7.184393] (-) TimerEvent: {}
+[7.284769] (-) TimerEvent: {}
+[7.385127] (-) TimerEvent: {}
+[7.485513] (-) TimerEvent: {}
+[7.585880] (-) TimerEvent: {}
+[7.686337] (-) TimerEvent: {}
+[7.786724] (-) TimerEvent: {}
+[7.887124] (-) TimerEvent: {}
+[7.987528] (-) TimerEvent: {}
+[8.087923] (-) TimerEvent: {}
+[8.188335] (-) TimerEvent: {}
+[8.288722] (-) TimerEvent: {}
+[8.389099] (-) TimerEvent: {}
+[8.489535] (-) TimerEvent: {}
+[8.589904] (-) TimerEvent: {}
+[8.690290] (-) TimerEvent: {}
+[8.790658] (-) TimerEvent: {}
+[8.891025] (-) TimerEvent: {}
+[8.991419] (-) TimerEvent: {}
+[9.091794] (-) TimerEvent: {}
+[9.192141] (-) TimerEvent: {}
+[9.292504] (-) TimerEvent: {}
+[9.392875] (-) TimerEvent: {}
+[9.493257] (-) TimerEvent: {}
+[9.593616] (-) TimerEvent: {}
+[9.693969] (-) TimerEvent: {}
+[9.794343] (-) TimerEvent: {}
+[9.894722] (-) TimerEvent: {}
+[9.995074] (-) TimerEvent: {}
+[10.095507] (-) TimerEvent: {}
+[10.195890] (-) TimerEvent: {}
+[10.296314] (-) TimerEvent: {}
+[10.396773] (-) TimerEvent: {}
+[10.416314] (serial_test) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial_test_node\x1b[0m\n'}
+[10.496886] (-) TimerEvent: {}
+[10.597418] (-) TimerEvent: {}
+[10.698011] (-) TimerEvent: {}
+[10.753360] (serial_test) StdoutLine: {'line': b'[100%] Built target serial_test_node\n'}
+[10.776171] (serial_test) CommandEnded: {'returncode': 0}
+[10.777064] (serial_test) JobProgress: {'identifier': 'serial_test', 'progress': 'install'}
+[10.799366] (serial_test) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lqc/chapt_serial/serial_ws/build/serial_test'], 'cwd': '/home/lqc/chapt_serial/serial_ws/build/serial_test', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lqc', 'SSH_AGENT_PID': '2146', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lqc', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/lqc/chapt_serial/serial_ws/src', 'TERM_PROGRAM_VERSION': '1.86.2', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/lqc/serial_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'lqc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/lqc-desktop:@/tmp/.ICE-unix/2165,unix/lqc-desktop:/tmp/.ICE-unix/2165', 'XDG_MENU_PREFIX': 'xfce-', 'XRDP_SOCKET_PATH': '/var/run/xrdp/1002', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4cc7b21a_220f_4b96_8e21_1ded4c485c8c', 'XDG_RUNTIME_DIR': '/run/user/1002', 'GDK_BACKEND': 'x11', 'DISPLAY': ':10.0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-f2c4feaae9.sock', 'GNOME_TERMINAL_SERVICE': ':1.86', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-Dljvji0i5lOh/agent.2065', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'XFCE', 'UID': '1002', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1922', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lqc/chapt_serial/serial_ws/build/serial_test', 'XDG_CONFIG_DIRS': '/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.800172] (-) TimerEvent: {}
+[10.814499] (serial_test) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.815838] (serial_test) StdoutLine: {'line': b'-- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/lib/serial_test/serial_test_node\n'}
+[10.817980] (serial_test) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lqc/chapt_serial/serial_ws/install/serial_test/lib/serial_test/serial_test_node" to ""\n'}
+[10.818281] (serial_test) StdoutLine: {'line': b'-- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/ament_index/resource_index/package_run_dependencies/serial_test\n'}
+[10.819988] (serial_test) StdoutLine: {'line': b'-- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/ament_index/resource_index/parent_prefix_path/serial_test\n'}
+[10.820150] (serial_test) StdoutLine: {'line': b'-- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/environment/ament_prefix_path.sh\n'}
+[10.822708] (serial_test) StdoutLine: {'line': b'-- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/environment/ament_prefix_path.dsv\n'}
+[10.822925] (serial_test) StdoutLine: {'line': b'-- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/environment/path.sh\n'}
+[10.823060] (serial_test) StdoutLine: {'line': b'-- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/environment/path.dsv\n'}
+[10.823198] (serial_test) StdoutLine: {'line': b'-- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/local_setup.bash\n'}
+[10.824404] (serial_test) StdoutLine: {'line': b'-- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/local_setup.sh\n'}
+[10.824607] (serial_test) StdoutLine: {'line': b'-- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/local_setup.zsh\n'}
+[10.824785] (serial_test) StdoutLine: {'line': b'-- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/local_setup.dsv\n'}
+[10.824922] (serial_test) StdoutLine: {'line': b'-- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/package.dsv\n'}
+[10.825040] (serial_test) StdoutLine: {'line': b'-- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/ament_index/resource_index/packages/serial_test\n'}
+[10.825154] (serial_test) StdoutLine: {'line': b'-- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/cmake/serial_testConfig.cmake\n'}
+[10.828899] (serial_test) StdoutLine: {'line': b'-- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/cmake/serial_testConfig-version.cmake\n'}
+[10.829052] (serial_test) StdoutLine: {'line': b'-- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/package.xml\n'}
+[10.829160] (serial_test) CommandEnded: {'returncode': 0}
+[10.895381] (serial_test) JobEnded: {'identifier': 'serial_test', 'rc': 0}
+[10.898261] (-) EventReactorShutdown: {}

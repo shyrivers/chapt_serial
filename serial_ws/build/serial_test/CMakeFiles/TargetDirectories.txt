@@ -1,0 +1,10 @@
+/home/lqc/chapt_serial/serial_ws/build/serial_test/CMakeFiles/uninstall.dir
+/home/lqc/chapt_serial/serial_ws/build/serial_test/CMakeFiles/serial_test_uninstall.dir
+/home/lqc/chapt_serial/serial_ws/build/serial_test/CMakeFiles/serial_test_node.dir
+/home/lqc/chapt_serial/serial_ws/build/serial_test/CMakeFiles/test.dir
+/home/lqc/chapt_serial/serial_ws/build/serial_test/CMakeFiles/edit_cache.dir
+/home/lqc/chapt_serial/serial_ws/build/serial_test/CMakeFiles/rebuild_cache.dir
+/home/lqc/chapt_serial/serial_ws/build/serial_test/CMakeFiles/list_install_components.dir
+/home/lqc/chapt_serial/serial_ws/build/serial_test/CMakeFiles/install.dir
+/home/lqc/chapt_serial/serial_ws/build/serial_test/CMakeFiles/install/local.dir
+/home/lqc/chapt_serial/serial_ws/build/serial_test/CMakeFiles/install/strip.dir

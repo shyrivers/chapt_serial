@@ -1,0 +1,25 @@
+[0.017s] Invoking command in '/home/lqc/chapt_serial/serial_ws/build/serial_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lqc/chapt_serial/serial_ws/build/serial_test -- -j4 -l4
+[0.181s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_test_node.dir/src/serial_test_node.cpp.o[0m
+[10.413s] [100%] [32m[1mLinking CXX executable serial_test_node[0m
+[10.750s] [100%] Built target serial_test_node
+[10.773s] Invoked command in '/home/lqc/chapt_serial/serial_ws/build/serial_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lqc/chapt_serial/serial_ws/build/serial_test -- -j4 -l4
+[10.796s] Invoking command in '/home/lqc/chapt_serial/serial_ws/build/serial_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lqc/chapt_serial/serial_ws/build/serial_test
+[10.811s] -- Install configuration: ""
+[10.812s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/lib/serial_test/serial_test_node
+[10.815s] -- Set non-toolchain portion of runtime path of "/home/lqc/chapt_serial/serial_ws/install/serial_test/lib/serial_test/serial_test_node" to ""
+[10.816s] -- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/ament_index/resource_index/package_run_dependencies/serial_test
+[10.816s] -- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/ament_index/resource_index/parent_prefix_path/serial_test
+[10.817s] -- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/environment/ament_prefix_path.sh
+[10.819s] -- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/environment/ament_prefix_path.dsv
+[10.819s] -- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/environment/path.sh
+[10.819s] -- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/environment/path.dsv
+[10.821s] -- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/local_setup.bash
+[10.821s] -- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/local_setup.sh
+[10.821s] -- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/local_setup.zsh
+[10.821s] -- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/local_setup.dsv
+[10.821s] -- Installing: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/package.dsv
+[10.821s] -- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/ament_index/resource_index/packages/serial_test
+[10.825s] -- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/cmake/serial_testConfig.cmake
+[10.825s] -- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/cmake/serial_testConfig-version.cmake
+[10.825s] -- Up-to-date: /home/lqc/chapt_serial/serial_ws/install/serial_test/share/serial_test/package.xml
+[10.826s] Invoked command in '/home/lqc/chapt_serial/serial_ws/build/serial_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lqc/chapt_serial/serial_ws/build/serial_test
